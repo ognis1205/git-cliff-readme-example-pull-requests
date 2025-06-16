@@ -1,0 +1,11 @@
+[package]
+name = "git-cliff-readme-example"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "main"
+path = "src/bin/main.rs"
+
+[dependencies]
+clap = { version = "4.5.40", features = ["derive"] }
